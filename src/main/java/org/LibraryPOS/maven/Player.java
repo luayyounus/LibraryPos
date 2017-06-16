@@ -8,4 +8,12 @@ public class Player {
     private int playerNumber;
     private String sportType;
     private int yearsOfExperience;
+
+    //Default Constructor with Default Values
+    public Player () {
+        playerName = "Luay";
+        playerNumber = 7;
+        sportType = "Tennis";
+        yearsOfExperience = 4;
+    }
 }
