@@ -16,4 +16,12 @@ public class Player {
         sportType = "Tennis";
         yearsOfExperience = 4;
     }
+
+    //Another Constructor
+    public Player (String playerName, int playerNumber, String sportType, int yearsOfExperience) {
+        this.playerName = playerName;
+        this.playerNumber = playerNumber;
+        this.sportType = sportType;
+        this.yearsOfExperience = yearsOfExperience;
+    }
 }
